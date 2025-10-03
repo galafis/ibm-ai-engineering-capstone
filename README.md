@@ -1,6 +1,10 @@
 # IBM AI Engineering Professional Capstone
 
-*[English version below / Versão em inglês abaixo]*
+## 🖼️ Imagem Hero
+
+<!-- A imagem hero será inserida aqui. Atualmente, não há uma imagem hero disponível. -->
+
+---
 
 ## 🇧🇷 Português
 
@@ -15,22 +19,25 @@ Este projeto representa o trabalho final do **IBM AI Engineering Professional Ce
 ### 🎯 Características Principais
 
 #### 🚀 Funcionalidades Core
-- **Dashboard Interativo:** Interface web responsiva e intuitiva
-- **Processamento de Dados:** Pipeline de dados robusto e escalável
-- **Analytics Avançado:** Análises estatísticas e machine learning
-- **API RESTful:** Endpoints para integração com sistemas externos
+
+*   **Dashboard Interativo:** Interface web responsiva e intuitiva
+*   **Processamento de Dados:** Pipeline de dados robusto e escalável
+*   **Analytics Avançado:** Análises estatísticas e machine learning
+*   **API RESTful:** Endpoints para integração com sistemas externos
 
 #### 📊 Business Intelligence
-- **Métricas em Tempo Real:** KPIs e indicadores atualizados
-- **Relatórios Automatizados:** Geração automática de relatórios
-- **Visualizações Interativas:** Gráficos e dashboards dinâmicos
-- **Alertas Inteligentes:** Sistema de notificações automatizado
+
+*   **Métricas em Tempo Real:** KPIs e indicadores atualizados
+*   **Relatórios Automatizados:** Geração automática de relatórios
+*   **Visualizações Interativas:** Gráficos e dashboards dinâmicos
+*   **Alertas Inteligentes:** Sistema de notificações automatizado
 
 #### 🔒 Segurança e Compliance
-- **Autenticação Segura:** Sistema de login robusto
-- **Controle de Acesso:** Permissões baseadas em roles
-- **Auditoria Completa:** Log de todas as ações do sistema
-- **Criptografia de Dados:** Proteção de dados sensíveis
+
+*   **Autenticação Segura:** Sistema de login robusto
+*   **Controle de Acesso:** Permissões baseadas em roles
+*   **Auditoria Completa:** Log de todas as ações do sistema
+*   **Criptografia de Dados:** Proteção de dados sensíveis
 
 ### 🛠️ Stack Tecnológico
 
@@ -72,20 +79,23 @@ Este projeto representa o trabalho final do **IBM AI Engineering Professional Ce
 ### 💼 Impacto nos Negócios
 
 #### 📈 Métricas de Performance
-- **Eficiência:** 70% melhoria na produtividade
-- **Precisão:** 95% acurácia nas análises
-- **Velocidade:** 80% redução no tempo de processamento
-- **ROI:** 250% retorno sobre investimento
+
+*   **Eficiência:** 70% melhoria na produtividade
+*   **Precisão:** 95% acurácia nas análises
+*   **Velocidade:** 80% redução no tempo de processamento
+*   **ROI:** 250% retorno sobre investimento
 
 #### 🎯 Casos de Uso
-- **Análise Empresarial:** Insights para tomada de decisão
-- **Otimização de Processos:** Melhoria contínua
-- **Previsão de Tendências:** Análise preditiva
-- **Monitoramento de Performance:** Acompanhamento de KPIs
+
+*   **Análise Empresarial:** Insights para tomada de decisão
+*   **Otimização de Processos:** Melhoria contínua
+*   **Previsão de Tendências:** Análise preditiva
+*   **Monitoramento de Performance:** Acompanhamento de KPIs
 
 ### 🚀 Começando
 
 #### Pré-requisitos
+
 ```bash
 Python 3.11+
 pip (gerenciador de pacotes)
@@ -93,10 +103,11 @@ Git
 ```
 
 #### Instalação
+
 ```bash
 # Clone o repositório
-git clone https://github.com/galafis/ibm-ai-engineering-professional-capstone.git
-cd ibm-ai-engineering-professional-capstone
+git clone https://github.com/galafis/ibm-ai-engineering-capstone.git
+cd ibm-ai-engineering-capstone
 
 # Instale as dependências
 pip install -r requirements.txt
@@ -109,6 +120,7 @@ http://localhost:8501
 ```
 
 #### Configuração Inicial
+
 ```bash
 # Gere dados de exemplo
 python src/main_platform.py --generate-data
@@ -123,6 +135,7 @@ python src/main_platform.py --start
 ### 📊 Schema de Dados
 
 #### Tabela Principal
+
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
 | id | VARCHAR(50) | Identificador único |
@@ -136,6 +149,7 @@ python src/main_platform.py --start
 ### 🔍 Funcionalidades Principais
 
 #### 📊 Dashboard Analytics
+
 ```python
 def generate_dashboard():
     # Carregar dados
@@ -151,6 +165,7 @@ def generate_dashboard():
 ```
 
 #### 🤖 Machine Learning
+
 ```python
 from sklearn.ensemble import RandomForestClassifier
 
@@ -165,11 +180,12 @@ def make_predictions(model, data):
 ```
 
 #### 📈 Analytics Engine
+
 ```python
 def analyze_trends(data):
     # Análise temporal
-    trends = data.groupby('date').agg({
-        'value': ['mean', 'sum', 'count']
+    trends = data.groupby(\'date\').agg({
+        \'value\': [\'mean\', \'sum\', \'count\']
     })
     
     # Detectar padrões
@@ -181,19 +197,21 @@ def analyze_trends(data):
 ### 📊 Métricas de Performance
 
 #### Targets de Performance
-- **Response Time:** < 2 segundos
-- **Throughput:** > 1000 requests/min
-- **Uptime:** 99.9%
-- **Accuracy:** > 95%
+
+*   **Response Time:** < 2 segundos
+*   **Throughput:** > 1000 requests/min
+*   **Uptime:** 99.9%
+*   **Accuracy:** > 95%
 
 #### Monitoramento
+
 ```python
 def monitor_performance():
     metrics = {
-        'response_time': measure_response_time(),
-        'memory_usage': get_memory_usage(),
-        'cpu_utilization': get_cpu_usage(),
-        'active_users': count_active_users()
+        \'response_time\': measure_response_time(),
+        \'memory_usage\': get_memory_usage(),
+        \'cpu_utilization\': get_cpu_usage(),
+        \'active_users\': count_active_users()
     }
     return metrics
 ```
@@ -201,6 +219,7 @@ def monitor_performance():
 ### 🧪 Testes
 
 #### Executar Testes
+
 ```bash
 # Testes unitários
 python -m pytest tests/unit/
@@ -213,6 +232,7 @@ python tests/performance_test.py
 ```
 
 #### Cobertura de Testes
+
 ```bash
 # Relatório de cobertura
 coverage run -m pytest
@@ -223,6 +243,7 @@ coverage html
 ### 📚 API Documentation
 
 #### Endpoints Principais
+
 ```python
 # Obter dados
 GET /api/data
@@ -252,6 +273,7 @@ Response: {
 ### ⚙️ Configuração
 
 #### Arquivo de Configuração
+
 ```python
 # config.py
 DATABASE_URL = "sqlite:///platform.db"
@@ -260,34 +282,34 @@ MAX_RECORDS = 10000
 CACHE_TIMEOUT = 300
 
 API_CONFIG = {
-    'host': '0.0.0.0',
-    'port': 8000,
-    'workers': 4
+    \'host\': \'0.0.0.0\',
+    \'port\': 8000,
+    \'workers\': 4
 }
 ```
 
 ### 🔒 Segurança
 
-- **Data Protection:** Criptografia AES-256
-- **Access Control:** Autenticação JWT
-- **Input Validation:** Validação rigorosa de entrada
-- **Audit Trail:** Log completo de ações
+*   **Data Protection:** Criptografia AES-256
+*   **Access Control:** Autenticação JWT
+*   **Input Validation:** Validação rigorosa de entrada
+*   **Audit Trail:** Log completo de ações
 
 ### 📈 Roadmap
 
-- [ ] Mobile app integration
-- [ ] Advanced ML models
-- [ ] Real-time streaming
-- [ ] Cloud deployment
-- [ ] API v2.0
+*   [ ] Mobile app integration
+*   [ ] Advanced ML models
+*   [ ] Real-time streaming
+*   [ ] Cloud deployment
+*   [ ] API v2.0
 
 ### 🤝 Contribuição
 
-1. Fork o projeto
-2. Crie uma branch para sua feature
-3. Commit suas mudanças
-4. Push para a branch
-5. Abra um Pull Request
+1.  Fork o projeto
+2.  Crie uma branch para sua feature
+3.  Commit suas mudanças
+4.  Push para a branch
+5.  Abra um Pull Request
 
 ### 📄 Licença
 
@@ -299,7 +321,7 @@ Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICEN
 
 ### 📊 Overview
 
-This project represents the capstone work for the **IBM AI Engineering Professional Certificate**, demonstrating advanced competencies in inteligência artificial, deep learning e engenharia de modelos. The developed platform offers a complete solution with modelos de IA avançados, computer vision e processamento de linguagem natural.
+This project represents the capstone work for the **IBM AI Engineering Professional Certificate**, demonstrating advanced competencies in artificial intelligence, deep learning, and model engineering. The developed platform offers a complete solution with advanced AI models, computer vision, and natural language processing.
 
 **Developed by:** Gabriel Demetrios Lafis  
 **Certification:** IBM AI Engineering Professional Certificate  
@@ -308,16 +330,18 @@ This project represents the capstone work for the **IBM AI Engineering Professio
 ### 🎯 Key Features
 
 #### 🚀 Core Functionality
-- **Interactive Dashboard:** Responsive and intuitive web interface
-- **Data Processing:** Robust and scalable data pipeline
-- **Advanced Analytics:** Statistical analysis and machine learning
-- **RESTful API:** Endpoints for system integration
+
+*   **Interactive Dashboard:** Responsive and intuitive web interface
+*   **Data Processing:** Robust and scalable data pipeline
+*   **Advanced Analytics:** Statistical analysis and machine learning
+*   **RESTful API:** Endpoints for system integration
 
 #### 📊 Business Intelligence
-- **Real-time Metrics:** Updated KPIs and indicators
-- **Automated Reports:** Automatic report generation
-- **Interactive Visualizations:** Dynamic charts and dashboards
-- **Smart Alerts:** Automated notification system
+
+*   **Real-time Metrics:** Updated KPIs and indicators
+*   **Automated Reports:** Automatic report generation
+*   **Interactive Visualizations:** Dynamic charts and dashboards
+*   **Smart Alerts:** Automated notification system
 
 ### 🛠️ Technology Stack
 
@@ -330,9 +354,52 @@ This project represents the capstone work for the **IBM AI Engineering Professio
 | **Visualization** | Plotly | 5.17+ | Interactive charts |
 | **ML** | Scikit-learn | 1.3+ | Machine Learning |
 
+### 🏗️ Solution Architecture
+
+```
+📊 Platform Architecture
+├── 🔄 Data Layer
+│   ├── Data Ingestion
+│   ├── Data Processing
+│   ├── Data Storage
+│   └── Data Validation
+├── 🧠 Business Logic
+│   ├── Core Services
+│   ├── Analytics Engine
+│   ├── ML Models
+│   └── API Gateway
+├── 🎨 Presentation Layer
+│   ├── Web Dashboard
+│   ├── Interactive Charts
+│   ├── Report Generator
+│   └── User Interface
+└── 🔧 Infrastructure
+    ├── Security Layer
+    ├── Monitoring
+    ├── Logging
+    └── Configuration
+```
+
+### 💼 Business Impact
+
+#### 📈 Performance Metrics
+
+*   **Efficiency:** 70% improvement in productivity
+*   **Accuracy:** 95% accuracy in analyses
+*   **Speed:** 80% reduction in processing time
+*   **ROI:** 250% return on investment
+
+#### 🎯 Use Cases
+
+*   **Business Analysis:** Insights for decision-making
+*   **Process Optimization:** Continuous improvement
+*   **Trend Forecasting:** Predictive analysis
+*   **Performance Monitoring:** KPI tracking
+
 ### 🚀 Getting Started
 
 #### Prerequisites
+
 ```bash
 Python 3.11+
 pip (package manager)
@@ -340,10 +407,11 @@ Git
 ```
 
 #### Installation
+
 ```bash
 # Clone the repository
-git clone https://github.com/galafis/ibm-ai-engineering-professional-capstone.git
-cd ibm-ai-engineering-professional-capstone
+git clone https://github.com/galafis/ibm-ai-engineering-capstone.git
+cd ibm-ai-engineering-capstone
 
 # Install dependencies
 pip install -r requirements.txt
@@ -355,17 +423,107 @@ python src/main_platform.py
 http://localhost:8501
 ```
 
+#### Initial Configuration
+
+```bash
+# Generate sample data
+python src/main_platform.py --generate-data
+
+# Configure the environment
+python src/main_platform.py --setup
+
+# Start the service
+python src/main_platform.py --start
+```
+
+### 📊 Data Schema
+
+#### Main Table
+
+| Field | Type | Description |
+|-------|------|-----------|
+| id | VARCHAR(50) | Unique identifier |
+| name | VARCHAR(100) | Record name |
+| category | VARCHAR(50) | Category |
+| value | DECIMAL(10,2) | Numeric value |
+| status | VARCHAR(20) | Current status |
+| created_at | TIMESTAMP | Creation date |
+| updated_at | TIMESTAMP | Last update |
+
+### 🔍 Main Features
+
+#### 📊 Dashboard Analytics
+
+```python
+def generate_dashboard():
+    # Load data
+    data = load_data()
+    
+    # Create metrics
+    metrics = calculate_metrics(data)
+    
+    # Generate visualizations
+    charts = create_charts(data)
+    
+    return render_dashboard(metrics, charts)
+```
+
+#### 🤖 Machine Learning
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+
+def train_model(X, y):
+    model = RandomForestClassifier(n_estimators=100)
+    model.fit(X, y)
+    return model
+
+def make_predictions(model, data):
+    predictions = model.predict(data)
+    return predictions
+```
+
+#### 📈 Analytics Engine
+
+```python
+def analyze_trends(data):
+    # Temporal analysis
+    trends = data.groupby(\'date\').agg({
+        \'value\': [\'mean\', \'sum\', \'count\']
+    })
+    
+    # Detect patterns
+    patterns = detect_patterns(trends)
+    
+    return trends, patterns
+```
+
 ### 📊 Performance Metrics
 
 #### Performance Targets
-- **Response Time:** < 2 seconds
-- **Throughput:** > 1000 requests/min
-- **Uptime:** 99.9%
-- **Accuracy:** > 95%
+
+*   **Response Time:** < 2 seconds
+*   **Throughput:** > 1000 requests/min
+*   **Uptime:** 99.9%
+*   **Accuracy:** > 95%
+
+#### Monitoring
+
+```python
+def monitor_performance():
+    metrics = {
+        \'response_time\': measure_response_time(),
+        \'memory_usage\': get_memory_usage(),
+        \'cpu_utilization\': get_cpu_usage(),
+        \'active_users\': count_active_users()
+    }
+    return metrics
+```
 
 ### 🧪 Testing
 
 #### Run Tests
+
 ```bash
 # Unit tests
 python -m pytest tests/unit/
@@ -377,9 +535,19 @@ python -m pytest tests/integration/
 python tests/performance_test.py
 ```
 
+#### Test Coverage
+
+```bash
+# Coverage report
+coverage run -m pytest
+coverage report -m
+coverage html
+```
+
 ### 📚 API Documentation
 
 #### Main Endpoints
+
 ```python
 # Get data
 GET /api/data
@@ -396,22 +564,56 @@ POST /api/data
     "category": "category1",
     "value": 100.50
 }
+
+# Get metrics
+GET /api/metrics
+Response: {
+    "total_records": 1000,
+    "avg_value": 85.50,
+    "categories": 5
+}
+```
+
+### ⚙️ Configuration
+
+#### Configuration File
+
+```python
+# config.py
+DATABASE_URL = "sqlite:///platform.db"
+DEBUG_MODE = False
+MAX_RECORDS = 10000
+CACHE_TIMEOUT = 300
+
+API_CONFIG = {
+    \'host\': \'0.0.0.0\',
+    \'port\': 8000,
+    \'workers\': 4
+}
 ```
 
 ### 🔒 Security
 
-- **Data Protection:** AES-256 encryption
-- **Access Control:** JWT authentication
-- **Input Validation:** Strict input validation
-- **Audit Trail:** Complete action logging
+*   **Data Protection:** AES-256 encryption
+*   **Access Control:** JWT authentication
+*   **Input Validation:** Strict input validation
+*   **Audit Trail:** Complete action logging
 
-### 🤝 Contributing
+### 📈 Roadmap
 
-1. Fork the project
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+*   [ ] Mobile app integration
+*   [ ] Advanced ML models
+*   [ ] Real-time streaming
+*   [ ] Cloud deployment
+*   [ ] API v2.0
+
+### 🤝 Contribution
+
+1.  Fork the project
+2.  Create a feature branch
+3.  Commit your changes
+4.  Push to the branch
+5.  Open a Pull Request
 
 ### 📄 License
 
@@ -421,3 +623,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Developed by Gabriel Demetrios Lafis**  
 *IBM AI Engineering Professional Certificate Capstone Project*
+
