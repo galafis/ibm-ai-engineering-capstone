@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 5003
 
-CMD ["python", "src/main.py"]
+CMD ["python", "src/ai_platform.py"]
